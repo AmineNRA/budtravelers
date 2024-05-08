@@ -16,6 +16,7 @@
   },
   "source": "src/index.html",
   "dependencies": {
+    "@parcel/watcher": "^2.4.1",
     "feather-icons": "^4.29.2",
     "paquet": "^0.0.2",
     "reset-css": "^5.0.2"
