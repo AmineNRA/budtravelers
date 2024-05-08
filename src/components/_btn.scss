@@ -1,0 +1,16 @@
+.btn{
+    border: 1px solid white;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+    &:hover{
+        background-color: black;
+        border: 1px solid black;
+        transform: scale(1.2);
+        transition: all 1s;
+    }
+}

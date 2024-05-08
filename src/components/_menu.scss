@@ -1,0 +1,22 @@
+ul .sub
+{
+    height: 0;
+    background-color: white;
+}
+.sub > li{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    background-color: white;
+}
+input[type='checkbox']{
+    display: none;
+}
+input:checked + .sub > li{
+    height: 2em;
+    padding-top: .5rem;
+}
+.menu1 + .menu2{
+    cursor: pointer;
+}
